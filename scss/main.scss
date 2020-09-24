@@ -1,1 +1,23 @@
 @import './variables';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box__first {
+  margin: 50px 25px;
+  padding: 15px 20px;
+  background-color: $box1-background;
+  color: $box1-paragraph;
+  border: 5px solid $box1-highlight;
+  border-radius: 5px;
+}
+
+.box__second {
+  margin: 50px 25px;
+  padding: 15px 20px;
+  background-color: $box2-background;
+  color: $box2-paragraph;
+  border: 5px solid $box2-highlight;
+  border-radius: 5px;
+}

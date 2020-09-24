@@ -1,2 +1,22 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
+.box__first {
+  margin: 50px 25px;
+  padding: 15px 20px;
+  background-color: #16161a;
+  color: #94a1b2;
+  border: 5px solid #7f5af0;
+  border-radius: 5px;
+}
+
+.box__second {
+  margin: 50px 25px;
+  padding: 15px 20px;
+  background-color: #242629;
+  color: #94a1b2;
+  border: 5px solid #2cb67d;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=main.css.map */
