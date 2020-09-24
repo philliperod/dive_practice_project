@@ -3,20 +3,32 @@ body {
 }
 
 .box__first {
-  margin: 50px 25px;
+  margin: 25px 15px;
   padding: 15px 20px;
   background-color: #16161a;
   color: #94a1b2;
   border: 5px solid #7f5af0;
   border-radius: 5px;
+  height: 300px;
+  width: 50%;
+  display: inline-block;
+  visibility: hidden;
 }
 
 .box__second {
-  margin: 50px 25px;
+  margin: 25px 15px;
   padding: 15px 20px;
   background-color: #242629;
   color: #94a1b2;
   border: 5px solid #2cb67d;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.box__second:hover {
+  background-color: #94a1b2;
+  color: #fffffe;
+  border: 5px solid #7f5af0;
   border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */

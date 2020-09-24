@@ -5,19 +5,31 @@ body {
 }
 
 .box__first {
-  margin: 50px 25px;
+  margin: 25px 15px;
   padding: 15px 20px;
   background-color: $box1-background;
   color: $box1-paragraph;
   border: 5px solid $box1-highlight;
   border-radius: 5px;
+  height: 300px;
+  width: 50%;
+  display: inline-block;
+  visibility: hidden;
 }
 
 .box__second {
-  margin: 50px 25px;
+  margin: 25px 15px;
   padding: 15px 20px;
   background-color: $box2-background;
   color: $box2-paragraph;
   border: 5px solid $box2-highlight;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.box__second:hover {
+  background-color: $box1-paragraph;
+  color: $box1-border;
+  border: 5px solid $box1-highlight;
   border-radius: 5px;
 }
